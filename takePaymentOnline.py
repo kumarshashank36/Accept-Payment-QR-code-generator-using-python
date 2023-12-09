@@ -18,12 +18,12 @@ phonepe_qr = qrcode.make(phonepe_url)
 paytm_qr = qrcode.make(paytm_url)
 gpay_qr = qrcode.make(gpay_url)
 
-#same the qr code to image file (optional)
+#save the qr code to image file
 phonepe_qr.save('phonepe_qr.png')
 paytm_qr.save('paytm_qr.png')
 gpay_qr.save('gpay_qr.png')
 
-#display the qr codes( you need to install illow library)
+#display the qr codes
 phonepe_qr.show()
 paytm_qr.show()
 gpay_qr.show()
