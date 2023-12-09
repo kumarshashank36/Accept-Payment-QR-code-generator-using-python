@@ -1,2 +1,2 @@
-# Accept-Payment-QR-code-generator-using-python
+# QR-code-generator-to-Accept-Payment-using-python
 
